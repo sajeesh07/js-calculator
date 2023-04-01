@@ -12,15 +12,11 @@
   }
   .all {
     margin-left: 15px;
-    .num {
+    .btn {
       height: 70px;
       width: 50px;
       font-size: 2.5rem;
       margin: 10px;
-
-      button:hover {
-        border: 5px solid black;
-      }
     }
   }
 }

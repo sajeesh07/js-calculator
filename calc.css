@@ -14,12 +14,9 @@
 .container .all {
   margin-left: 15px;
 }
-.container .all .num {
+.container .all .btn {
   height: 70px;
   width: 50px;
   font-size: 2.5rem;
   margin: 10px;
-}
-.container .all .num button:hover {
-  border: 5px solid black;
 }/*# sourceMappingURL=calc.css.map */
