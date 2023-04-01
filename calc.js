@@ -1,18 +1,11 @@
 let display = document.getElementById("display");
 
 function btnClick(val) {
-  console.log(typeof val);
-  let newValue;
-  if (typeof val === "String") {
-    newValue = Number(val);
-  } else {
-    newValue = val;
-  }
-  console.log(val);
-  document.getElementById("display").value += newValue;
+  document.getElementById("display").value += val;
 }
 
-function equals() {
-  let result = eval(display.value);
-  display.value = result;
+function equalClick() {
+  let text = document.getElementById("display").value;
+  let result = eval(text);
+  document.getElementById("display").value = result;
 }
